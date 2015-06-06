@@ -1,0 +1,17 @@
+upanno
+    prepare annotations from uniprot KB. Divide core elements into three groups: 1) single AA, 2) pairs, 3) ranges
+mapsnv
+    use files created by upanno
+
+
+To use:
+perl upanno.pl uniprot_sprot.dat
+
+0. uniprot format 
+ID   AF1_GRARO               Reviewed;          29 AA.
+AC   P61408;
+FT   CHAIN         1    256 
+//
+
+
+
